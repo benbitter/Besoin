@@ -1,0 +1,70 @@
+/* Reset margins and paddings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure the body, html, and root take the full height and width */
+  body, html, #root {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Choice container that covers the entire screen with border */
+  .choice-container {
+    height: calc(100vh - 4px); /* Full viewport height minus 4px (2px top + 2px bottom for border) */
+    width: calc(100vw - 4px);  /* Full viewport width minus 4px (2px left + 2px right for border) */
+    display: flex;
+    align-items: center;       /* Vertically center content */
+    justify-content: center;   /* Horizontally center content */
+    background-color: #abb8c9; /* Background color for visibility */
+    
+  }
+  .choice-box{
+    background-image: url('./choice.jpg');
+    background-size: contain;
+    height: 100vh;
+    width: 70vw;
+    margin-left: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+}
+
+.btn-provideservice{
+    width: 200px; 
+    background-color:#4d5a6a;
+    color: rgb(253, 253, 255);
+    border-radius: 50px;
+    border: 1px solid #284a65;
+    height: 120px;
+    font-size: larger;
+    margin-top: 65px;
+}
+
+.btn-takeservice{
+    width: 200px; 
+    background-color:#4d5a6a;
+    color: rgb(253, 253, 255);
+    border-radius: 50px;
+    font-size: larger;
+    border: 1px solid #284a65;
+    margin-top: 65px;
+  
+    height: 120px;
+}
+
+.btn-takeservice:hover{
+  background-color:#a0aab6;
+    height: 130px; 
+}
+
+.btn-provideservice:hover{
+  background-color:#a0aab6;
+    height: 130px; 
+}
+  

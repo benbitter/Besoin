@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+
+.container-login{
+    background-color: #abb8c9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.box-login{
+    background-image: url('./Login.jpg');
+    background-size: contain;
+    height: 100vh;
+    width: 70vw;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-form{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(7 20 37);
+    color: #2e478d;
+}
+
+.login-input{
+    width: 24vw;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    
+
+}
+
+.btn-login-createnew1{
+    width: 300px;
+    height: 30px;
+    background-color: #38567c;
+    border: none;
+    border-radius: 7px;
+    
+}
+
+.btn-login-submit{
+
+    width: 300px;
+    height: 30px;
+    background-color: rgb(56 86 124);
+    border: none;
+    border-radius: 7px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form label{
+    background-color:rgb(7 20 37) ;
+}
+
+.register{
+    background-color: rgb(7 20 37);
+}
