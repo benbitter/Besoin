@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import { account } from '../appwrite-config/config';
 import { useNavigate } from 'react-router-dom';
-import './Registeration.css'
+import './registeration.css'
 
 function Registeration() {
 
